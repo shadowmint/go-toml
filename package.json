@@ -1,0 +1,27 @@
+{
+  "name": "go-toml",
+  "version": "0.2.0",
+  "description": "This is an NPM compatible fork of https://github.com/BurntSushi/toml",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurntSushi/toml.git"
+  },
+  "files": [
+    "*.go",
+    "scripts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BurntSushi/toml/issues"
+  },
+  "homepage": "https://github.com/BurntSushi/toml",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
